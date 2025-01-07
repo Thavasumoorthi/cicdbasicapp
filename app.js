@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.get("/",(req,res)=>{
     res.json({
-        message:"Hello I am from Thavasumoorthi"
+        message:"Hello I am backend developer"
     })
 })
 
