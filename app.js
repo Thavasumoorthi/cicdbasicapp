@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.get("/",(req,res)=>{
     res.json({
-        message:"app is running on the port 3000"
+        message:"Hello I am from Thavasumoorthi"
     })
 })
 
