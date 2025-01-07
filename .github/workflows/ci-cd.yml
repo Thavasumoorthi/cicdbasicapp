@@ -3,7 +3,7 @@ name: CI/CD Pipeline for Express App
 on:
   push:
     branches:
-      - master  # Trigger the pipeline on push to the 'master' branch
+      - master  # Trigger the pipeline on push to the 'master' 
 
 jobs:
   build:
