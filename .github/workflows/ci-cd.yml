@@ -46,6 +46,8 @@ jobs:
           username: ec2-user
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
+          debug: true
+
             # Stop existing container if running
             sudo docker stop express-app || true
             sudo docker rm express-app || true
