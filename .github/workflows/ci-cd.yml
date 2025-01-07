@@ -43,8 +43,8 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
             # Stop existing container
-            sudo docker stop express-app
-            sudo docker rm express-app
+            sudo docker stop my-express-app
+            sudo docker rm my-express-app
             
             # Pull the latest image from ECR
             sudo docker pull 529088279946.dkr.ecr.us-east-1.amazonaws.com/express-app:latest
