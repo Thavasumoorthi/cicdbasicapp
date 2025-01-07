@@ -47,7 +47,7 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
 
-            # Stop existing container if running
+            # Stop existing container if runnings
             sudo docker stop express-app || true
             sudo docker rm express-app || true
             debug: true
