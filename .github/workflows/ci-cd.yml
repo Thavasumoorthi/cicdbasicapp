@@ -50,7 +50,6 @@ jobs:
             # Stop existing container if runnings
             sudo docker stop express-app || true
             sudo docker rm express-app || true
-            debug: true
 
             
             # Pull the latest image from ECR
